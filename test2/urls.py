@@ -17,13 +17,14 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url
 
-from blog2 import views
+from antiy_Encyclopedia import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'index/', views.index),
+    #url(r'index/', views.index),
     url(r'^output/', views.output),
-    url(r'^down/', views.down)
+    url(r'^down/', views.down),
+    url(r'getdata/',views.antiyindex)
 
 
 ]

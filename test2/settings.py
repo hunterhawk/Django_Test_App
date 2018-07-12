@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'mysite2.apps.Mysite2Config',
     'blog2',
+    'antiy_Encyclopedia',
 ]
 
 MIDDLEWARE = [
